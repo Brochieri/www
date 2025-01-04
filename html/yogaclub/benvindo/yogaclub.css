@@ -1,0 +1,36 @@
+@charset "utf-8";
+:root {
+    --cor-texto: #000000;
+    --cor-texto02: #23022e;
+    --cor-texto03: #3E442B;
+    --cor-fundo02: #fff9a5;
+    --cor-fundo: #ffffff;
+    --cor-detalhe: #F8931F;
+    --cor-botoes02: #B6BBCE;
+    --cor-botoes03: #009FC7;
+    --cor-destaque: #64768E;
+
+    --fonte-titulo:Ubuntu, sans-serif;
+    --fonte-subtitulo: Cantarell, sans-serif;
+    --fonte-texto: 'Helvetica Reue', Arial, sans-serif;
+}
+    
+
+body{
+    background-color: var(--cor-fundo02);
+}
+header {
+    
+    height: 200px;
+}
+
+header > h1 {
+    font-family: var(--fonte-titulo);
+    text-align: center;
+    color: var(--cor-texto02);
+    width: 450px;
+}
+header > h2 {
+    font-family: var(--fonte-subtitulo);
+    text-align: center;
+}
