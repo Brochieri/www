@@ -16,9 +16,18 @@
     </article>
     <form action="" method="post">
         <label for="altura"> Indique a sua altura:</label>
-        <input type="number" name="altura" id="" placeholder="1,55" size="5px">m <br>
-        <label for="peso"> Indique o seu peso:</label> <input type="number" name="peso" id="" placeholder="30" size="5px">kg
+        <input type="number" name="altura" id="altura" placeholder="1.55" size="5px">m <br>
+        <label for="peso"> Indique o seu peso:</label> <input type="number" name="peso" id="peso" placeholder="30" size="5px">kg
+        <input type="submit">
+        
     </form>
+    <script>
+        let altura = window.document.getElementById(altura);
+        let peso = window.document.getElementById(peso);
+        imc = peso/ (altura**2);
+        window.alert("O imc é " + imc)
+        
+    </script>
     
 </body>
 </html>
