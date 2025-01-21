@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculo do IMC</title>
 </head>
-<body>
+<body onload="imc()">
     <article>
         <p>
             Estudos comprovam que as pessoas que estão com o IMC entre 19 e 25 têm menos chances de adoecer.
@@ -16,18 +16,18 @@
     </article>
     <form action="" method="post">
         <label for="altura"> Indique a sua altura:</label>
-        <input type="number" name="altura" id="altura" placeholder="1.55" size="5px">m <br>
+        <input type="number" name="altura" id="altura" placeholder="1.55" size="5px" step=".01">m <br>
         <label for="peso"> Indique o seu peso:</label> <input type="number" name="peso" id="peso" placeholder="30" size="5px">kg
         <input type="submit">
         
     </form>
-    <script>
-        let altura = window.document.getElementById(altura);
-        let peso = window.document.getElementById(peso);
-        imc = peso/ (altura**2);
-        window.alert("O imc é " + imc)
-        
-    </script>
+    <div>
+        A mensagem será escrita aqui.
+
+    </div>
+   <script src="imc.js">
+
+   </script>
     
 </body>
 </html>
