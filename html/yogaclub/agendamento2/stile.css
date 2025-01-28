@@ -1,0 +1,38 @@
+.agenda {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+  }
+  
+  .agenda th, .agenda td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    cursor: pointer; /* Adiciona cursor de clique */
+  }
+  
+  .dia-semana {
+      font-weight: bold;
+      background-color: #f2f2f2;
+  }
+  
+  .mes-ano {
+      font-size: 1.2em;
+      font-weight: bold;
+      background-color: #eee;
+  }
+  
+  .dia-anterior, .dia-posterior {
+    color: #ccc; /* Cor diferente para dias de outros meses */
+  }
+  
+  .dia-atual {
+      background-color: #4CAF50;
+      color: white;
+      font-weight: bold;
+  }
+  .botoes-calendario {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 10px;
+  }
+  

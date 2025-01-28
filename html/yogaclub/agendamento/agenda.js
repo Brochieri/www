@@ -1,0 +1,12 @@
+//var ano = window.document.getElementById("ano");
+//var mes = window.document.getElementById("mes");
+//var sem = window.document.getElementById("sem");
+//var s1d1 = window.document.getElementById("s1d1");
+var data = new Date();
+var a = data.getFullYear(); 
+var m = data.getMonth();
+var s = data.getDay();
+var d = data.getDate(); 
+ano.innerHTML = `${a}`;
+mes.innerHTML = `${m}`;
+s1d1.innerHTML = `${d}`;
